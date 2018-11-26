@@ -63,6 +63,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+zsh-autosuggestions
   git
 )
 
@@ -105,3 +106,4 @@ alias v="vim"
 alias n="node"
 alias m="mocha"
 alias jc="cd ~/workSpace/javaScripts/closures-namankrs/"
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
